@@ -1,0 +1,104 @@
+body {
+    background-color: white;
+    text-align: center;
+    align-items: center;
+}
+
+p {
+    color: black;
+}
+
+.flex-container {
+    display: contents;
+    justify-content:space-evenly;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.slidecontainer {
+    width: 100%;
+  }
+
+.slider {
+    padding-bottom: 40px;
+    outline: none;
+    border-radius: 2px;
+    height: 7px;
+    width: 400px;
+    background: white;
+}
+
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background: url('test.png');
+    background-size: cover;
+}
+
+.slider::-moz-range-thumb {
+    width: 23px;
+    height: 25px;
+    border: 0;
+    background: url('test.png');
+    cursor: pointer;
+}
+  
+
+.ingredients {
+    padding-left: 20%;
+    padding-right: 0%;
+    align-items: center;
+}
+
+
+.rating-list li {
+    float: right;
+    color: #ddd;
+    padding: 10px 5px;
+  }
+  
+  .rating-list li:hover,
+  .rating-list li:hover ~ li {
+    color: #ffd700;
+  }
+  
+  .rating-list {
+    display: inline-block;
+    list-style: none;
+    padding-right: 40px;
+  }
+
+#save_button{
+    background-color: red;
+    color: white;
+}
+
+#rangeValue{
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+#credits{
+    font-size: 13px;
+}
+
+table,
+th,
+td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5px solid black;
+}
